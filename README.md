@@ -19,3 +19,7 @@ AlgoTrade is an algorithmic trading platform that allows users to create, backte
 - **Containerization**: Docker
 - **Orchestration**: Kubernetes
 - **CI/CD**: GitHub Actions
+
+## HOW TO START APP
+
+- **Backend**: set up .env file with relevant properties -> mvn clean install -> run "docker compose -f ./docker-compose.yml up" at the root directory
